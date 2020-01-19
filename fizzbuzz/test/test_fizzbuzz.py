@@ -5,3 +5,9 @@ def test_fizzbuzz_returns_number():
     assert 1 == fizzbuzz(1)
     assert 2 == fizzbuzz(2)
     assert 7 == fizzbuzz(7)
+
+
+def test_fizzbuzz_returns_fizz_when_multiple_of_three():
+    assert 'fizz' == fizzbuzz(3)
+    assert 'fizz' == fizzbuzz(6)
+    assert 'fizz' == fizzbuzz(9)
