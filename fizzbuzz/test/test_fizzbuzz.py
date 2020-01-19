@@ -11,3 +11,13 @@ def test_fizzbuzz_returns_fizz_when_multiple_of_three():
     assert 'fizz' == fizzbuzz(3)
     assert 'fizz' == fizzbuzz(6)
     assert 'fizz' == fizzbuzz(9)
+
+
+def test_fizzbuzz_returns_buzz_when_multiple_of_five():
+    assert 'buzz' == fizzbuzz(5)
+    assert 'buzz' == fizzbuzz(10)
+    assert 'buzz' == fizzbuzz(20)
+
+
+
+
