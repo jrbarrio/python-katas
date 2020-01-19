@@ -1,6 +1,13 @@
 def fizzbuzz(number):
+    result = ''
+
     if number % 3 == 0:
-        return 'fizz'
-    elif number % 5 == 0:
-        return 'buzz'
-    return number
+        result += 'fizz'
+
+    if number % 5 == 0:
+        result += 'buzz'
+
+    if result == '':
+        result = number
+
+    return result
