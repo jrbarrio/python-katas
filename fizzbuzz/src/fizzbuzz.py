@@ -1,3 +1,2 @@
-
-def fizzbuzz():
-    pass
+def fizzbuzz(number):
+    return number
